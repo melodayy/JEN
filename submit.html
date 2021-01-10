@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+        <meta charset="UTF-8">
+        <title>Budgetree</title>
+        <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class = "topnav">
+        <a title="Home" href="home.html">Home</a>
+        <a href="#transactions">Add Transactions</a>
+        <a href="#expense">Expense Log</a>
+        <a href="#saving">Savings Log</a>
+	<a href="#wishlist">Wishlist Log</a>
+        <a href="#donation">Donation</a>
+        <button id="settings" style="float: right"><img src=images/settings.png width="35" height = "35"></button>
+    </div>
+    
+    <table style="width: 1356px;">
+        <img title="donate" src=images/banner.png alt="Budgetree" class="center"> 
+    </div>
+    
+   
+    <table style="width: 1356px;">
+        <tbody>
+            <tr>
+                <td><img id = "b" src=images/expenses.png width = "434" height="190.4" class = "image"></td>
+                <td rowspan="2">
+                    <form action="/action_page.php">
+			<label>Pastic Bags?</label><br>
+             			<select id = "plastic bags">
+               				<option value = "1">Yes</option>
+               				<option value = "2">No</option>
+             			</select>
+				<br>
+			<label>Single-use items?</label><br>
+             			<select id = "single-use items">
+               				<option value = "1">Yes</option>
+               				<option value = "2">No</option>
+             			</select>
+				<br>
+			<h3>Sustainable alternatices for:</h3>
+ 			<label for="item 1">Item 1</label><br>
+ 			<input type="text" id="item 1" name="item 1"><br>
+			<label for="item 2">Item 2</label><br>
+ 			<input type="text" id="item 2" name="item 2"><br>
+			<label for="item 3">Item 3</label><br>
+ 			<input type="text" id="item 3" name="item 3"><br>
+			<br>
+			<input type="button" value="Add More Items">
+  			<input type="button" value="Submit" onclick="location.href='alt.html';"/>
+			</form>
+                </td>
+                <td style="text-align: center;" rowspan="2">
+                        <img title="person" src=images/person.png width = "340" height="400" > 
+                </td>
+            </tr>
+            <tr>
+                <td><img src=images/savings.png width = "434" height="190.4" class = "image"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    
+    
+    
+</body>
